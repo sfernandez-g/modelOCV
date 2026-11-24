@@ -1,0 +1,22 @@
+# Local manuscript and independent companion repository.
+/doc/
+/modelOCP/
+
+# Publish only the two reference MAT inputs.
+/input/*.mat
+!/input/Uocp_n.mat
+!/input/Uocp_p.mat
+
+# Generated results, local tools and MATLAB session artifacts.
+/output/
+.build/
+.cache/
+.vscode/
+.idea/
+*.asv
+*.m~
+*.autosave
+*.mex*
+matlab_crash_dump*
+.DS_Store
+Thumbs.db
